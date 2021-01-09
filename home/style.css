@@ -1,0 +1,57 @@
+body{
+    cursor: default;
+    background-image: url("homeBackG.jpg");
+    background: no-repeat center center cover;
+    background-size: cover;
+}
+
+body:after{
+  content: "";
+  position: fixed;
+  top: 0; bottom: 0; left: 0; right: 0; 
+  background: hsla(260,0%,50%,0.25);
+  pointer-events: none;
+}
+
+.present span{
+    text-align: right;
+    cursor: default;
+    font-family: 'david';
+    font-size: 80px;
+    direction: rtl;
+    text-align: center;
+    color: black;
+    background-color: black;
+    color: white;
+
+}
+
+.present{
+    text-align: center;
+}
+
+.header{
+    text-align: center;
+}
+
+.header span{
+    cursor: default;
+    font-family: 'david';
+    font-size: 80px;
+    direction: rtl;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+a{
+    cursor: default;
+}
+
+
+img{
+    cursor: default;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

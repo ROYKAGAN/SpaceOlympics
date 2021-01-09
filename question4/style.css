@@ -1,0 +1,133 @@
+body{
+    background-image: url("bg.jpg");
+    background: no-repeat center center cover;
+    background-size: cover;background: no-repeat center center cover;
+    background-size: cover;
+    cursor: default;
+
+}
+
+.options nav{
+    background-color: aliceblue;
+}
+
+.options nav{
+    align-items: center;
+    width: 500px;
+    
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: static;
+
+}
+
+
+
+.header{
+    font-family: 'david';
+    font-size: 60px;
+    direction: rtl;
+    text-align: center;
+    color: black;
+}
+
+nav{
+
+    border-radius: 50px;
+    align-items: center;
+}
+
+nav ul li{
+
+    --c: rgb(10, 201, 105);
+    color: var(--c);
+    font-size: 18px;
+    border: 0.3em solid var(--c);
+    border-radius: 0.5em;
+    width: 25em;
+    height: 3em;
+    font-weight: bold;
+    font-family: "david";
+    letter-spacing: 0.1em;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;
+
+}
+
+nav ul li span {
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+
+ul{
+    padding-inline-start: 0px;
+}
+
+nav ul li:hover {
+    color: black;
+}
+
+nav ul li:hover span {
+    transform: translateY(0) scale(2);
+}
+
+nav ul li span:nth-child(1) {
+    --n: 1;
+}
+
+nav ul li span:nth-child(2) {
+    --n: 2;
+}
+
+nav ul li span:nth-child(3) {
+    --n: 3;
+}
+
+nav ul li span:nth-child(4) {
+    --n: 4;
+}
+
+
+
+a:link {
+    font-size: 40px;
+    direction: rtl;
+    color: bisque;
+}
+  
+/* visited link */
+a:visited {
+    font-size: 40px;
+    direction: rtl;
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    font-size: 40px;
+    direction: rtl;
+    color: cornsilk;
+}
+
+/* selected link */
+a:active {
+    font-size: 40px;
+    direction: rtl;
+    color: darkseagreen;
+}
